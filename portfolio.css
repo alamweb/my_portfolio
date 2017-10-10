@@ -1,0 +1,114 @@
+body{
+background-image: url("coffee-animated-gif-9.gif");
+background-size: cover;
+background-position: relative;
+float: center;
+
+
+
+}
+
+
+.navbar-default.navbar-toggle{
+
+  background-color: white;
+}
+
+
+
+.navbar.semi-transparent {
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size:1.3em;
+}
+
+.navbar.semi-transparent.navbar-default .navbar-brand {
+    color: yellow;
+}
+.navbar.semi-transparent.navbar-default .navbar-brand:hover{
+  color:white;
+}
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
+
+  color:white;
+}
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover{
+
+  color:#1abc9c;
+}
+
+
+
+
+
+
+
+ul a .navbar.semi-transparent{
+
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+      box-shadow:none;
+}
+
+
+
+
+.navbar-brand{
+  color: yellow;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-brand:hover{
+
+  color: white;
+}
+
+
+html{
+  height: 100%;
+}
+#content {
+  text-align: center;
+  padding-top: 25%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+@media only screen and (min-width : 321px) and (max-width : 480px)
+ {
+
+
+   #content {
+       background-color: transparent;
+   }
+}
+
+
+
+
+@media only screen and (min-width : 555px) and (max-width : 768px)
+ {
+
+
+   #content {
+       background-color: transparent;
+   }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+ {
+
+
+   #content {
+       background-color: transparent;
+   }
+}
