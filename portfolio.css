@@ -1,8 +1,10 @@
 body{
-background-image: url("coffee-animated-gif-9.gif");
+background-image: url("science.gif");
 background-size: cover;
 background-position: relative;
 float: center;
+
+
 
 
 
@@ -13,6 +15,15 @@ float: center;
 
   background-color: white;
 }
+
+
+.row {
+/*margin: 0 auto;*/
+display: block;
+/*border: 2px solid green;*/
+
+}
+
 
 
 
@@ -72,43 +83,210 @@ ul a .navbar.semi-transparent{
 
 html{
   height: 100%;
+
+
 }
+
+
+
+
+
+
+
+
 #content {
+  margin: 0 auto;
   text-align: center;
   padding-top: 25%;
   color: white;
+  /*border:2px solid red;*/
   font-family: 'Josefin Sans', sans-serif;
 }
 
 
+/*Digital Clock */
 
-@media only screen and (min-width : 321px) and (max-width : 480px)
- {
+ p {
+ font-size: 50px;
+ font-family: 'Iceland', cursive;
+ /*color: #9af409;*/
+ color:white;
+ padding-top: 100px;
 
 
-   #content {
-       background-color: transparent;
-   }
+}
+
+lebel{
+ text-align: left;
+
+ /*padding-top: 170px;*/
+ /*margin:0 auto;
+ position: block;*/
+ /*padding-top: 50px;*/
+
+
+
 }
 
 
 
 
-@media only screen and (min-width : 555px) and (max-width : 768px)
- {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 375px) and (max-width : 450px)
+ {
+   #content {
+     margin: 100px auto;
+     text-align: center;
+     padding-top: 25%;
+     color: white;
+     /*border:2px solid red;*/
+     font-family: 'Josefin Sans', sans-serif;
+
+   }
+hr {
+  width :90%;
+}
+
+}
+
+
+
+
+@media only screen and (min-width : 500px) and (max-width : 768px)
+ {
+   body{
+       background-position-x:-26em;
+       position: fixed;
+   }
 
    #content {
        background-color: transparent;
+       padding-top: 250px;
+       float: left;
+
+
+
    }
+
+   lebel {
+     text-align: center;
+     margin: 0 auto;
+     /*padding-top: 300px;*/
+
+   }
+ p{
+   color:#2cf408;
+ }
 }
 
 
 @media only screen and (min-width : 768px) and (max-width : 1024px)
  {
-
+   body{
+       background-position-x:-26em;
+   }
 
    #content {
        background-color: transparent;
+       padding-left: 200px;
+
    }
+
+   lebel {
+     text-align: center;
+     margin: 0 auto;
+     /*padding-top: 300px;*/
+
+   }
+   p{
+     color:#2cf408;
+   }
+}
+
+@media only screen and (min-width : 375px) and (max-width : 550px)
+ {
+
+
+   body{
+       background-position-x:-26em;
+   }
+   lebel {
+     text-align: center;
+     margin: 0 auto;
+     /*padding-top: 300px;*/
+
+   }
+
+   p{
+     color:#2cf408;
+   }
+}
+
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 550px) {
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
+    color:#2cf408;
+     width: 20%;
+  }
+
+  .navbar.semi-transparent.navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+
+}
+
+}
+
+@media only screen (min-width: 375) and (max-width: 550px){
+
+  .row {
+  margin: 0 auto;
+  display: block;
+  }
+
+}
+@media only screen and (min-width : 500px) and (max-width : 768px){
+  .row {
+  margin: 0 auto;
+  display: block;
+  }
+
+}
+@media only screen and (min-width : 736px) and (max-width: 1024px){
+  div #content{
+    margin-left: 170px;
+    padding-top: 0;
+  }
+
+  lebel p {
+    text-align: center;
+    margin-left: 200px;;
+    /*padding-top: 300px;*/
+
+  }
+
+  .navbar.semi-transparent.navbar-default .navbar-nav>li>a{
+      color:#2cf408;
+       width: 20%;
+    }
+
+    .navbar.semi-transparent.navbar-default .navbar-toggle .icon-bar {
+      background-color: red;
+
+  }
 }

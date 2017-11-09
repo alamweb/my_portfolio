@@ -1,5 +1,5 @@
 body{
-background-image: linear-gradient( rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80) ), url("suit.png");
+background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("suit.png");
 background-size: cover;
 background-position: relative;
 
@@ -92,5 +92,34 @@ padding-top: 180px;
   right:0;
   margin:auto;
   color:white;
+
+}
+
+@media only screen and (min-width: 321px) and (max-width : 480px){
+.imgMe{
+
+  padding-top: 190px;
+}
+
+}
+
+@media only screen and (min-width : 321px) and (max-width : 480px){
+
+  body{
+    background-position-x:-35em;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
+    color:red;
+     width: 20%;
+  }
+
+  .navbar.semi-transparent.navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+
+}
 
 }
