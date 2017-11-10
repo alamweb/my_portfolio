@@ -13,3 +13,5 @@ localTime.innerHTML= time.toLocaleTimeString("en-US");
 // End of digitalClock function
 
 let  digitalTime = setInterval(digitalClock, 1000);
+
+onclick="window.open(this.href,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;"

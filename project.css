@@ -103,7 +103,11 @@ h2{
   opacity: 1px;
 }
 
+button{
+  background-color: transparent;
+padding: 10px;
 
+}
 
 
 
