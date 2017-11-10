@@ -1,5 +1,5 @@
 body{
-background-image: linear-gradient( rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80) ), url("img/prj.jpg");
+background-image: linear-gradient( rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.85) ), url("img/prj.jpg");
 background-size: cover;
 background-position: relative;
 
@@ -79,29 +79,42 @@ html{
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.imgMe{
-padding-top: 150px;
-padding-right: 10px;
-  width:160px;
-}
-.about{
+
+.project{
+
+  padding-top: 15%;
+text-decoration: none;
+color:#A8CBFF;
 font-family: 'Josefin Sans', sans-serif;
-padding-top: 180px;
-	font-size: medium;
-	left:0;
-  right:0;
-  margin:auto;
-  color:white;
-
+font-size: 1.1em;
 }
 
-@media only screen and (min-width: 321px) and (max-width : 480px){
-.imgMe{
+.project1{
 
-  padding-top: 190px;
+  padding-top:0;
+text-decoration: none;
+color:#A8CBFF;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.1em;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  opacity: 1px;
 }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 321px) and (max-width : 480px){
 
