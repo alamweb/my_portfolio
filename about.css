@@ -3,17 +3,12 @@ background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), u
 background-size: cover;
 background-position: relative;
 
-
-
 }
-
 
 .navbar-default.navbar-toggle{
 
   background-color: white;
 }
-
-
 
 .navbar.semi-transparent {
   background:transparent;
